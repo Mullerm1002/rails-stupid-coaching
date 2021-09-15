@@ -1,1 +1,23 @@
-<h1><%=@answer%></h1>
+<div class="banner">
+
+  <div class="container-banner">
+    <h1>Stupid Coaching 💪</h1>
+  </div> <!--container-banner end-->
+  
+</div> <!--banner end-->
+
+<div class="container">
+
+  <div class="input">
+    <p><%=@input%></p>
+    <p>-> You </p>
+  </div> <!--input end-->
+
+  <div class="answer">
+    <p><%=@answer%></p>
+    <p>-> Your coach</p>
+  </div> <!--answer end-->
+
+  <%= link_to "Ask a new question", ask_path %>
+  
+</div> <!--container end-->
